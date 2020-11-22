@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function check(){
+        let x=['Polaris','Aldebaran','Deneb','Vega','Altair','Dubhe','Regulus'];
+        let y=['Ursa Minor','Tarurus','Cygnus','Lyra','Aquila','Ursa Major','Leo'];
+        let input=prompt('Enter star name: ');
+        for (i=0; i<x.length; i++){
+            if (x[i]== input) {
+               alert(y[i]);
+               break;
+            } else if (i == x.length-1)
+                alert('Khong tim thay ten chom sao nay');
+            }
+    }
+   check();
+
+
+
+</script>
+
+</body>
+</html>
